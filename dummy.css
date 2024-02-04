@@ -1,0 +1,59 @@
+.pic{
+    opacity: 95%;
+}
+.h11{
+    font-family:cursive
+}
+.nav-btn{
+    border-radius: 20px;
+}
+.sign{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    margin-left: 10px;
+
+}
+.log{
+    border-radius: 30px;
+}
+.s1{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    margin-left: 10px;
+}
+@media(max-width:580px){
+    .pic{
+        width: 100%;
+    }
+    .h11{
+        font-size: 200%;
+        flex-wrap: wrap;
+        display: flex;
+        
+    }
+    .p1{
+        font-size: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        text-align: initial;
+    }
+    /* #carouselExampleDark{
+        height: 550px;
+
+    } */
+    .out{
+        overflow-x: hidden;
+    }
+}
