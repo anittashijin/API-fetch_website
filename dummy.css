@@ -38,16 +38,17 @@
         width: 100%;
     }
     .h11{
-        font-size: 200%;
+        font-size: 100%;
         flex-wrap: wrap;
         display: flex;
         
     }
     .p1{
-        font-size: 100%;
+        display: none;
+        /* font-size: 100%;
         flex-wrap: wrap;
         display: flex;
-        text-align: initial;
+        text-align: initial; */
     }
     /* #carouselExampleDark{
         height: 550px;
